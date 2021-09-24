@@ -1,0 +1,19 @@
+{
+  "name": "feddoc.github.io",
+  "version": "1.0.0",
+  "description": "fed doc",
+  "main": "index.js",
+  "repository": "https://github.com/ICEPepsiCola/feddoc.github.io.git",
+  "author": "0zero",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "vuepress": "^1.8.2"
+  },
+  "dependencies": {
+    "vuepress-theme-antdocs": "^1.3.5"
+  }
+}
