@@ -10,7 +10,7 @@
 
   • [Vue标准项目](https://git.heytea.com/)
 
-  • [React Nuxt标准官网SSR项目](https://git.heytea.com)
+  • [React Next标准官网SSR项目](https://git.heytea.com)
 
   • [Taro小程序标准项目](https://git.heytea.com/)
 

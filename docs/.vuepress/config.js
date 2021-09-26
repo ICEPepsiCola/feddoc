@@ -1,5 +1,6 @@
 module.exports = {
     title: 'fed doc',
+    base: 'feddoc',
     head: [
         ['meta', {'http-equiv': 'cache-control', content: 'no-cache, no-store, must-revalidate'}],
         ['meta', {'http-equiv': 'pragma', content: 'no-cache'}],
