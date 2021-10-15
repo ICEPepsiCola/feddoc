@@ -1,6 +1,6 @@
 module.exports = {
     title: 'fed doc',
-    base: 'feddoc',
+    base: '/feddoc/',
     head: [
         ['meta', {'http-equiv': 'cache-control', content: 'no-cache, no-store, must-revalidate'}],
         ['meta', {'http-equiv': 'pragma', content: 'no-cache'}],
@@ -16,6 +16,7 @@ module.exports = {
                 collapsable: true,
                 children: [
                     'team-standard/standard-summary.md',
+                    'team-standard/code-publish.md',
                     'team-standard/standard-js.md',
                     'team-standard/standard-css.md',
                     'team-standard/standard-react.md',
@@ -42,6 +43,11 @@ module.exports = {
                     'ui/app-base',
                 ]
             }
+        ],
+        nav: [
+            { text: '首页', link: '/' },
+            { text: '规范&建设', link: '/team-standard/standard-summary/' },
+            { text: '分享', link: '/share' },
         ]
     }
 }
